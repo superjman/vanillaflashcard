@@ -1,0 +1,131 @@
+.questionForm {
+  display: none;
+  flex-direction: column;
+  width: 60%;
+  border: 1px solid orange;
+  border-radius: 5px;
+}
+
+.question, .answer {
+  width: 80%;
+  height: 3rem;
+  align-self: center;
+  border: 1px solid orange;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+
+label {
+  margin-left: 3.8rem;
+  font-weight: bold;
+}
+
+.exitBtn {
+  align-self: flex-end;
+  width: 5%;
+  margin: 8px;
+  color: white;
+  background-color: orange;
+  font-weight: bold;
+  border: 1px solid orange;
+  border-radius: 3px;
+  padding: 3px 0px;
+}
+
+.saveBtn {
+  width: 40%;
+  color: blue;
+  background-color: white;
+  border: 2px solid blue;
+  border-radius: 5px;
+  padding: 6px 0px;
+  margin: 10px 0px;
+  margin-left: 3.8rem;
+  outline:none;
+}
+
+.saveBtn:hover {
+  color: white;
+  background-color: blue;
+  cursor: pointer;
+}
+
+.displayFormBtn {
+  margin-bottom: 20px;
+  border: 1px solid orange;
+  color: orange;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.displayFormBtn:hover {
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+}
+
+.cards{
+  display: none;
+  flex-direction: column;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  width: 30%;
+  margin-top: 20px;
+}
+
+.editBtn {
+  border: 2px solid blue;
+  border-radius: 5px;
+  color: blue;
+  background-color: white;
+  flex-direction: flex-start;
+  padding: 7px 15px;
+}
+
+.editBtn:hover {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+.deleteBtn {
+  align-self: flex-end;
+  border: 2px solid orange;
+  border-radius: 5px;
+  color: orange;
+  background-color: white;
+  padding: 7px 15px;
+}
+
+.deleteBtn:hover {
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+}
+
+.displayAnswerBtn {
+  color: lightblue;
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  align-self: flex-start;
+  margin-bottom: 10px;
+  margin-left: 2rem;
+  outline: none;
+}
+
+.displayAnswerBtn:hover {
+  cursor: pointer;
+}
+
+.cardBtns {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+
+.questionText, .answerText {
+  margin-left: 2rem;
+  font-weight: bold;
+}
